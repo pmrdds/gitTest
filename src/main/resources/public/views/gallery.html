@@ -1,0 +1,15 @@
+<div class="container pad-top">
+	<div ng-repeat = "photo in photos">
+		<h2>{{photo.city}}</h2>
+		<img id="myImg" ng-src = "{{photo.icon}}" class="img-rounded img-responsive imagecustom" ng-click="open($index)"/>
+		<img src = "../images/likebutton.jpg" class= "buttonLike" ng-click = "plusOne($index)"><p class="likes" >{{photo.likes}}</p></img>
+		<img src = "../images/dislikebutton.jpg" class= "buttonDislike" ng-click = "minusOne($index)"><p class="likes" >{{photo.dislikes}}</p></img>
+		</br>
+		
+		<div id="myModal" class="modal">
+  		<span class="close" ng-click="close()">X</span>
+  		<img class="modal-content" id="img01">
+  		<div id="caption"></div>
+		</div>
+	</div>
+</div>

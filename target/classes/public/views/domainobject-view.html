@@ -1,0 +1,27 @@
+<div class="container pad-top">
+  <table class="table domainobjecttable">
+      <tr>
+          <td><h3>Details for {{domainobject.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Id</td>
+          <td>{{domainobject.id}}</td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{domainobject.name}}</td>
+      </tr>
+      <tr>
+          <td>Description</td>
+          <td>{{domainobject.description}}</td>
+      </tr>
+      <tr>
+          <td>Price</td>
+          <td>{{domainobject.price}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editDomainobject({id:domainobject.id})">Edit</a>
+  </div>
+</div>

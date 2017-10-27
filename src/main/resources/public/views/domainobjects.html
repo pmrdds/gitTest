@@ -1,0 +1,19 @@
+<div class="container pad-top">
+  <a ui-sref="newDomainobject" class="btn-primary btn-lg nodecoration">Add New Object</a>
+  <table class="table domainobjecttable">
+      <tr>
+          <td><h3>All Objects</h3></td>
+          <td></td>
+      </tr>
+      <tr ng-repeat="domainobject in domainobjects">
+      	  <td>{{domainobject.id}}</td>
+          <td>{{domainobject.name}}</td>
+          <td>{{domainobject.description}}</td>
+          <td>{{domainobject.price}}</td>
+          <td>
+              <a class="btn btn-primary" ui-sref="viewDomainobject({id:domainobject.id})">View</a>
+              <a class="btn btn-danger"  ng-click="deleteDomainObject(domainobject)">Delete</a>
+          </td>
+      </tr>
+  </table>
+</div>

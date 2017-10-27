@@ -1,0 +1,6 @@
+gr\boot\repository\DomainObjectJpaRepository.class
+gr\boot\model\DomainObject.class
+gr\boot\controller\DomainObjectController.class
+gr\boot\App.class
+gr\boot\App$WebSecurityConfig.class
+gr\boot\controller\HomeController.class
