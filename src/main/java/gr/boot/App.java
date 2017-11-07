@@ -43,7 +43,7 @@ public class App extends WebMvcConfigurerAdapter
                     .loginPage("/login")
                     .permitAll();
         }
-
+		// This comment is for branch_1
         @Override
         public void configure(AuthenticationManagerBuilder auth) throws Exception {
             auth
