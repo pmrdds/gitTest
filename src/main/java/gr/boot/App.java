@@ -48,7 +48,7 @@ public class App extends WebMvcConfigurerAdapter
         public void configure(AuthenticationManagerBuilder auth) throws Exception {
             auth
                 .inMemoryAuthentication()
-                    .withUser("username").password("p@ssword").roles("USER");
+                    .withUser("usern@me").password("p@ssword").roles("USER");
         }
     }
 }
