@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Hello world!
+ * Hello world! branch 2 test
  *
  */
 @SpringBootApplication
