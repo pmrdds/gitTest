@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Hello world! branch 2 test
+ * Hello world! tag 1.1 fix
  *
  */
 @SpringBootApplication
@@ -43,12 +43,12 @@ public class App extends WebMvcConfigurerAdapter
                     .loginPage("/login")
                     .permitAll();
         }
-		// This comment is for branch_1
+
         @Override
         public void configure(AuthenticationManagerBuilder auth) throws Exception {
             auth
                 .inMemoryAuthentication()
-                    .withUser("usern@me").password("p@ssw0rd").roles("USER");
+                    .withUser("username").password("password").roles("USER");
         }
     }
 }
