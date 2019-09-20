@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Hello world! new implentation
+ * Hello world! new implentation HOTFIX on 2.1
  *
  */
 @SpringBootApplication
